@@ -6,6 +6,7 @@ authors = [
 ]
 classifiers = [
   "Environment :: Console",
+  "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
@@ -14,7 +15,7 @@ dependencies = ["orjson>=3.9", "mashumaro>=3.14"]
 description = "Music Assistant Base Models"
 license = {text = "Apache-2.0"}
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 # The version is set by GH action on release
 version = "0.0.0"
 
